@@ -1,12 +1,12 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import Home from './screens/Home';
+import React from "react";
+import "./App.css";
+import UseReducerComponent from "./components/UseReducerComponent";
 
 function App() {
   return (
     <div className="App">
-      <Home />
+      <h1>Use Reducer</h1>
+      <UseReducerComponent/>
     </div>
   );
 }
